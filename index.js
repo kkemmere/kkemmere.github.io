@@ -35,7 +35,7 @@ const tempToF = (kelvin) => {
 
 const dataArticle = (data) => {
   const dataObj = JSON.parse(data);
-  console.log(dataObj);
+
   const weatherArticle = document.createElement("article");
   weatherArticle.classList.add("weather");
 
